@@ -1,0 +1,35 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+#video-container {
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+}
+
+#video {
+    width: 100%;
+    border: 2px solid #333;
+    transform: scaleX(-1); /* Mirror the video feed horizontally */
+}
+
+#translation {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
